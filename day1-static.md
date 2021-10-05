@@ -71,3 +71,32 @@ but this thing didn't worked at all , why ?
 because tut class is not public and to access it's members we need an object 
 so the question is why we need <b>static</b> keyword if we can use it only inside the public class 
 and if you are thinking to create two public classes in a single source file , then sorry you can't do this
+
+but wait .... the above explanation for static keyword is partially/completely wrong , that you have to decide
+
+look at this code
+
+```
+class tut{
+	public static void callme()
+	{
+		System.out.println("Non-Static Method");
+	}
+}
+
+public class first {
+
+	public static void main(String args[])
+	{
+		System.out.println("Static");
+//		tut t = new tut();
+//		t.callme();
+		tut.callme();
+		
+	}
+
+}
+```
+and it worked perfectly , right ? so this is what it means when we say " we don't have to create an object to call static methods " ,
+we can directly call them with classname.method_name();
+and if you remove the <b>static</b> keyword from the above program then you will get this error: "Cannot make a static reference to the non-static method"
