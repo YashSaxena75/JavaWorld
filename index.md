@@ -1,3 +1,4 @@
 ## Welcome to Java Tutorials by golith3r00t
 
-<a href="day1">Day1 -> Hello World </a>
+<a href="day1">Day1 -> Hello World </a><br>
+<a href="day1-static">Day1 -> static keyword </a><br>
