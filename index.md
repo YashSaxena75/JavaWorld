@@ -1,3 +1,3 @@
 ## Welcome to Java Tutorials by golith3r00t
 
-<a href="day1.html">Day1</a>
+<a href="day1.md">Day1</a>
