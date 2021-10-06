@@ -36,23 +36,19 @@ public class first {
 class "tut" will be accessible in this package only , let's create a new class with package name "tuts" 
 
 ```
-class tut{
-	public static void callme()
-	{
-		System.out.println("Default Access-Modifier");
-	}
-}
+package tuts;
 
-public class first {
+_import com.yash.tut;_
 
-	public static void main(String args[])
-	{
+public class test {
 
-		tut.callme();
-		
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
 	}
 
 }
+
 
 ```
 when we try to import "tut" class from package is gives us an error: <b> the type com.yash.tut is not visible </b>
