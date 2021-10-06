@@ -51,10 +51,10 @@ public class test {
 
 
 ```
-when we try to import "tut" class from package is gives us an error: <b> the type com.yash.tut is not visible </b>
+when we try to import "tut" class from package com.yash it gives us an error: <b> the type com.yash.tut is not visible </b>
 
 <b style="color:#66ff33">Public</b>
-this type of class members are accessible to the outside-world , it means we can access inside the same package as well as
+this type of class members are accessible to the outside-world , it means we can access them inside the same package as well as
 outside the package 
 
 ```
@@ -71,7 +71,7 @@ public class first {
 
 }
 ```
-let's creare a new class with package name "tuts" and then import the public class "frst" in it .
+let's creare a new class with package name "tuts" and then import the public class "first" in it .
 
 ```
 package tuts;
@@ -123,7 +123,7 @@ public class first {
 
 ```
 <b style="color:#66ff33">Protected</b>
-These members are accessible in same package as well as a child class.
+These members are accessible in same package as well as in a child class.
 
 ```
 package com.yash;
