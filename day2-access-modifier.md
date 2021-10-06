@@ -53,7 +53,7 @@ public class test {
 ```
 when we try to import "tut" class from package is gives us an error: <b> the type com.yash.tut is not visible </b>
 
-<b>Public</b>
+<b style="color:#66ff33">Public</b>
 this type of class members are accessible to the outside-world , it means we can access inside the same package as well as
 outside the package 
 
@@ -90,7 +90,7 @@ public class test {
 ```
 this program will run successfully .
 
-<b>Private</b>
+<b style="color:#66ff33">Private</b>
 These members are not even accessible in same package and not even in child class
 
 ```
@@ -122,7 +122,7 @@ public class first {
 }
 
 ```
-<b>Protected</b>
+<b style="color:#66ff33">Protected</b>
 These members are accessible in same package as well as a child class.
 
 ```
