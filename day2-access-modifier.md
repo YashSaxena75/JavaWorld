@@ -12,7 +12,7 @@ still let me recall all the modifiers for you
 - protected
 
 
-<b>Default</b>
+<b style="color:green">Default</b>
 ```
 class tut{
 	public static void callme()
