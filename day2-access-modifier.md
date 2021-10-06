@@ -38,7 +38,7 @@ class "tut" will be accessible in this package only , let's create a new class w
 ```
 package tuts;
 
-_import com.yash.tut;_
+<i>import com.yash.tut;</i>
 
 public class test {
 
