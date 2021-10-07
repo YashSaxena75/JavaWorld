@@ -154,8 +154,8 @@ public class first {
 
 }
 ```
-now what if the child class is public , can we access the protected member outside the package ? answer is NO
-but what if the class is public but method is protected ? can  we access it outside the package ?
+now what if the class is public , can we access the protected member outside the package directly by importing it ? answer is NO
+but what if the class is public and member is protected , can  we access it outside the package using child class ? answer is YES , let's see how.
 
 ```
 //first.java
