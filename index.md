@@ -5,4 +5,5 @@
 <a href="day1-access-modifier">Day1 -> Access Modifier</a><br>
 <a href="day2-access-modifier">Day2 -> Access Modifier</a><br>
 <a href="prac-loop">Practice question -> Loop </a><br>
+<a href="codechef-beg">CodeChef Beginner Level </a><br>
 
