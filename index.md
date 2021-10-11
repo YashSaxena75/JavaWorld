@@ -7,4 +7,4 @@
 <a href="prac-loop">Practice question -> Loop </a><br>
 <a href="codechef-beg">CodeChef Beginner Level </a><br>
 <a href="codechef10-beg">CodeChef Beginner Level(10-Oct-2021) </a><br>
-<a href="lapdr">Lapindrome Code</a><br
+<a href="lapdr">Lapindrome Code</a><br>
