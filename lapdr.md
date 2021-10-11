@@ -76,3 +76,18 @@ static void lap(int r) {
 
 
 ```
+
+Today we are going to look a very interesting problem we have from codechef "Lapindrome" . where we have to check if the two halves of a String
+contains the same character with same number of frequency or not .
+
+for ex: haha is palindrome because two halves "ab" and "ab" are equal in terms of character and their frequency .
+
+there are two ways to solve this challenge , either we can use inbuilt functions to divide the string or we can code this part also ( this is what
+I did ) and then took some help from the internet and found that after dividing the string just sort them and compare them
+
+we started with finding the length of the string , if the length is of even number then we have to follow the if part otherwise else part
+because "haha"s two halves (4/2)=2 will be "ha" and "ha" whereas two halves for a odd length string like this "abcde" will be "ab" and "de"
+we have two char array , one to store left hand side characters and one is to store right hand side characters , how we are going to define their
+storage size now ? 
+
+if the length is even 
