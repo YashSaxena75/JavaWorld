@@ -90,4 +90,23 @@ because "haha"s two halves (4/2)=2 will be "ha" and "ha" whereas two halves for 
 we have two char array , one to store left hand side characters and one is to store right hand side characters , how we are going to define their
 storage size now ? 
 
-if the length is even 
+if the length is even say "4" then len = len - 1 i.e 3 and then len = 3/2 = 1 , so we are going to define the array of length , len + 1
+
+<b>char left[] = new char[len+1];
+char right[] = new char[len+1];</b>
+
+now for odd number length strings , we have len = len/2 and array size will be len
+
+<b>char left[] = new char[len];
+char right[] = new char[len];</b>
+
+now acording to the string length , copy the left hand side element to keft[] and right side element to right[] then sort them
+using <b>Arrays.sort()</b> then copy the elements of both array to a string using , <b>String ri = String.copyValueOf(right)</b> , same for left[] array
+and then compare the two strings using equals(() functions like this
+
+if(ri.equals(le))
+	System.out.println("YES");
+else
+	System.out.println("NO");
+	
+complexity here will be O(n) if we ignore the starting while loop , that loop is because of number of test cases.
