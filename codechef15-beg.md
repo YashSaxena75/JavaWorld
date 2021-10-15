@@ -132,4 +132,4 @@ layout: default
 			c = 0;
 		}
 	}
-	```
+```
