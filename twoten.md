@@ -10,22 +10,19 @@ class Codechef
 		long a;
 		int flag = 0,fl = -1;
 		long c = 0;
-		long ac = 0;
 		while ( r >= 1) {
-			ac = 1;
 			a = s.nextLong();
-			ac = a;
-			while(ac<=1000000000) {
-				if ( ac>=5)
+			while(a<=1000000000) {
+				if ( a>=5)
 				{
-					if ( ac%10==0)
+					if ( a%10==0)
 					{
 						flag = 1;
 						break;
 					}
 					else
 					{
-						ac = ac*2;
+						a = a*2;
 						c = c + 1;
 					}
 				}
