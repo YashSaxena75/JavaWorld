@@ -36,21 +36,21 @@ where as "Integer" is a wrapper class which provides us some extra functions to 
 		int el = 2;
 		int flag = 0 ;
 		
-```
 
-<b style="color:#66FF33">for(int i=0;i<3;i++)
+		**for(int i=0;i<3;i++)
 		{
 			for(int j=0;j<4;j++)
 			{
 				if(b[i]==a[j])
 					flag = flag + 1;
 			}
-		}</b>
+		}**
 		if(flag==3)
 			System.out.println("all elements are present");
 		else
 			System.out.println("1 or more than element is missing");
 		
 	}
+```
 
 
