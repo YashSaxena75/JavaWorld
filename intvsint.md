@@ -86,3 +86,5 @@ I tried running both the codes and found that <b style="color:#66FF33">code exec
 we can ignore it 
 
 but yes wrapper classes more functionality than primitive data types 
+from <b style="color:#66FF33">converting string to int using Integer.parseInt() and converting back int to string Integer.toString()</b>
+Wrapper classes gives more power to you :)
