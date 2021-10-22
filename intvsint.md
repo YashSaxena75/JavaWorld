@@ -22,6 +22,7 @@ public class hello{
 }
 
 ```
+
 this program will print 8 both the times , so what's the difference between these two and which one should I use ? well , it depends on the 
 problem scenario , you can use "int" wherever  you want to use , but "int" is a primitive data type and we can't perform much operation on it
 where as "Integer" is a wrapper class which provides us some extra functions to help us more while coding , let's see how
@@ -35,7 +36,9 @@ where as "Integer" is a wrapper class which provides us some extra functions to 
 		int el = 2;
 		int flag = 0 ;
 		
-		<b style="color:#66FF33">for(int i=0;i<3;i++)
+```
+
+<b style="color:#66FF33">for(int i=0;i<3;i++)
 		{
 			for(int j=0;j<4;j++)
 			{
@@ -50,4 +53,4 @@ where as "Integer" is a wrapper class which provides us some extra functions to 
 		
 	}
 
-```
+
