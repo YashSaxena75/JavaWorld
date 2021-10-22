@@ -37,14 +37,14 @@ where as "Integer" is a wrapper class which provides us some extra functions to 
 		int flag = 0 ;
 		
 
-		**for(int i=0;i<3;i++)
+		**`for(int i=0;i<3;i++)
 		{
 			for(int j=0;j<4;j++)
 			{
 				if(b[i]==a[j])
 					flag = flag + 1;
 			}
-		}**
+		}`**
 		if(flag==3)
 			System.out.println("all elements are present");
 		else
