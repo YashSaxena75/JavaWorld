@@ -83,7 +83,7 @@ two for loops
 So data manipulation becomes more easy with wrapper classes 
 
 I tried running both the codes and found that <b style="color:#66FF33">code execution time was almost similar</b> , there was a very minor difference , probably
-we can ignore it , and we also have to check it for bigger size array like 10K elements and I found that <b style="color:#66FF33">for loop takes less time than Wrapper class function</b>
+we can ignore it , and we also have to check it for bigger size array like 10K elements and I found that <b style="color:#66FF33">for loop takes less time than Arrays.asList().contains() function</b>
 
 but yes wrapper classes more functionality than primitive data types 
 from <b style="color:#66FF33">converting string to int using Integer.parseInt() and converting back int to string Integer.toString()</b>
