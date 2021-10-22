@@ -78,7 +78,7 @@ static void ex2() {
 ```
 now this code is using "Integer" wrapper class , which provides us more options to perform on the data .
 we have used only one for loop , but I can't say how this <b style="color:#66FF33">Array.asList().contains()</b> works , so we can't 
-say that time ecomplexity here is O(n) but definelty time must be less than the first code where we have used
+say that time ecomplexity here is O(n) but definitely time must be less than the first code where we have used
 two for loops
 So data manipulation becomes more easy with wrapper classes 
 
