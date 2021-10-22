@@ -36,15 +36,15 @@ where as "Integer" is a wrapper class which provides us some extra functions to 
 		int el = 2;
 		int flag = 0 ;
 		
-
-		**`for(int i=0;i<3;i++)
+		for(int i=0;i<3;i++)
 		{
 			for(int j=0;j<4;j++)
 			{
 				if(b[i]==a[j])
 					flag = flag + 1;
 			}
-		}`**
+		}
+		
 		if(flag==3)
 			System.out.println("all elements are present");
 		else
@@ -52,5 +52,37 @@ where as "Integer" is a wrapper class which provides us some extra functions to 
 		
 	}
 ```
+This code will take around O(n^2) time complexity , now let's try this in some other way
 
+```
+static void ex2() {
+		
+		Integer a[] = {1,3,4,2};
+		Integer b[] = {1,2,5};
+		
+		int el = 2;
+		int flag = 0 ;
+		
+		for(int i=0;i<3;i++)
+		{
+			if(Arrays.asList(a).contains(b[i]))
+				flag = flag + 1 ;
+		}
+		if(flag==3)
+			System.out.println("all elements are present");
+		else
+			System.out.println("1 or more than element is missing");
+		
+	}
 
+```
+now this code is using "Integer" wrapper class , which provides us more options to perform on the data .
+we have used only one for loop , but I can't say how this <b style="color:#66FF33">Array.asList().contains()</b> works , so we can't 
+say that time ecomplexity here is O(n) but definelty time must be less than the first code where we have used
+two for loops
+So data manipulation becomes more easy with wrapper classes 
+
+I tried running both the codes and found that <b style="color:#66FF33">code execution time was almost similar</b> , there was a very minor difference , probably
+we can ignore it 
+
+but yes wrapper classes more functionality than primitive data types 
